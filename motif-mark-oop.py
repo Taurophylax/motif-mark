@@ -1,7 +1,7 @@
 import cairo as c
 import re
 import argparse
-#JAMES - FIX ARGPARSE BEFORE TURNING IT IN!!!!! 
+
 def get_arguments():
 	ap = argparse.ArgumentParser(description="Motif Marker is used to find motif sequences within a given DNA sequence. DNA bases in lower-case are assumed to be introns and capitalized bases are exons.")
 	ap.add_argument("-f", "--file", type=str, help="FASTA input file")
